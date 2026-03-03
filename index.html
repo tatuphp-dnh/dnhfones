@@ -2,59 +2,60 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fones de ouvido DNH</title>
+    <title>Página Azul</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #111;
-            color: white;
+            background-color: #1E90FF; /* azul */
+            font-family: Arial, Helvetica, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-            <header>🎧 DNH FONES 🎧 
-</header>
-        }
-        header {
-            background: linear-gradient(90deg, #00c3ff 0%, #ffff1c 100%);
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .container {
-            padding: 30px;
+            color: white;
         }
         img {
+            margin-top: 20px;
+            width: 150px;
+        }
+        .buttons {
+            margin: 20px;
+        }
+        .buttons a {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #1E90FF;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #00bfff;
+            color: white;
+        }
+        .photo-space {
+            margin: 40px auto;
             width: 300px;
-            border-radius: 15px;
-            margin: 20px 0;
+            height: 300px;
+            border: 3px dashed white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        Fones de ouvido DNH
-    </header>
-    <div class="container">
-        <h1>qualidade e autonomia</h1>
-        <h1>liberdade que se ouve</h1>
-        <img src="https://raw.githubusercontent.com/tatuphp-dnh/dnhfones/refs/heads/main/png.png" alt="Fones de ouvido DNH">
-        <p>Qualidade sonora incrível e design moderno.</p>
+    <!-- Fones de ouvido -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Headphones_Icon.png" alt="Fones de ouvido">
+
+    <!-- Botões -->
+    <div class="buttons">
+        <a href="https://www.exemplo1.com" target="_blank">Link 1</a>
+        <a href="https://www.exemplo2.com" target="_blank">Link 2</a>
+    </div>
+
+    <!-- Espaço para foto -->
+    <div class="photo-space">
+        <p>Coloque sua foto aqui</p>
     </div>
 </body>
 </html>
-
-.botoes {
-  display: flex;
-  flex-direction: column; /* "https://www.instagram.com/dnh.fone?igsh=eGsxN3prNXp4Mmxj" */
-  gap: 10px; /* espaço entre os botões */
-}
-
-.saiba-mais {
-  order: 1; /* aparece primeiro */
-}
-
-.instagram {
-  order: 2; /* aparece depois */
-}
-  
