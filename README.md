@@ -1,1 +1,1 @@
-</"uma nova experiência sonora>
+<uma nova experiência sonora>
